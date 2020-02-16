@@ -17,7 +17,7 @@ struct PersonRequest {
   let resource: URL
   
   init() {
-    let resourceString = "http://localhost:8080/api/data/"
+    let resourceString = "http://192.168.1.64:8080/api/data/"
     guard let resourceURL = URL(string: resourceString) else {
       fatalError()
     }
